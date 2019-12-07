@@ -1,0 +1,674 @@
+crChapter 1
+-------
+a) What is your command prompt.
+b) When you login what is the password you have entered.
+c) Find what the Terminal is in two different ways?
+
+
+1.2
+----
+Which passwords are not valid.
+u2, 2bAg4st, Your middle name, and I'mnNlf8r and Jan012001
+Change your password using passwd command.
+
+1.3.1
+------
+a) List the programs that are being run. 
+b) What is a shell program. 
+c) Name two things that a shell does for you. 
+d) Run a shell program inside a shell
+
+1.3.2
+What is your home directory and list the parent directory.
+what is the root directory.
+List the content of the parent directory.
+change to the previous directory using shorthand. 
+change tor oot directory.
+
+
+1.3.4
+List the contents of the current directory.
+List the cotnent fo the root directory.
+
+1.4
+---
+Logging out. 
+exit the terminal. 
+
+Chapter 2
+-----------
+2.1
+----
+Identify the command, options arguments and operands. 
+
+a) ls -aF ..
+b) cat /etc/passwd
+c) pwd
+d) ls -a
+e) head -n 1 /etc/passwd /etc/groups
+f) make -v -f makefile.new
+
+What is the different between options and operands.
+List files normal way. IDentify Files and directories using option other than -L
+
+Read a usage line. 
+-------
+fold [-bs] [-w width] [file ....]
+Which commands are valid and which are not.
+fold 
+fold -w -s letters
+fold letters
+fold -b -q -w 60 letters vowels
+fold -q letters
+
+
+LAB 2.2
+--------
+File redirection and Pipes.
+write current directory to a file called iamhere.
+
+cat comamnd. 
+List all lines in iamhere, /etc/passwd and /etc/groups.
+read rfom iamhere and  write to here2
+
+list all lines in iamhere, /etc/passwd and /etc/groups. and write it to allhere.
+create a file called more and 
+
+Do a long listing of files in root directory recurisively and sort them and hold it with more . 
+Pipe the rrors in each stat to an erro file. 
+
+write below to filename. Use an escape character. 
+To redirect, use >
+Try without \ and find out what happened.
+
+
+
+write it in English and then build it. when some books. Ask Andrew to ask me and then do it. 
+
+
+Chapter 3
+-------
+Interpret /usr/john/../janet, ~/dictionary/, ~janet. 
+
+Intrepret books/recipes/..dramat.
+./../...t
+
+Interpret the following relative paths.
+books/recipes/../drama.
+./-ot
+./../...
+What is the maximum path of a directory and max  file name. 
+
+Create following files. 
+
+supercalifgrailisticexpilaidocious. 
+and/or
+a file, a dhiidn file. 
+findl all hidden files, nex do it without listing ...
+
+3.3
+
+-rw-rw-rw- 1 bob acctg 1039 Mar 15 9:59 back
+-r--r--r-- 1 jan acctg 959 Mar 1 1:02 keep
+-r--r--r-- 1 jan acctg 959 Mar 1 1:02 save
+-rwxrw---  1 bob acctg 100 May 1 12:15 store
+dr-xr-xr-x 2 root wheel 512 Jun 11 1997 zip
+
+What command used used to get listing. 
+what is a directory.
+what user and group owns the file back. 
+when was the file keep last modified
+How mny links dod the file keep have. ? If > 1 what is file's other name. 
+Which file has gone unchanged the longes.
+
+
+Recognized the types of iles. 
+a) What character would indicate a directory. 
+b) What's difference between a soft link and hard link.
+c) what is ls -l listing. 
+
+
+Understand your default permissions. 
+create a file with 664 and check permissions.
+what is the umask command. and check it on your machine. 
+
+create a file with notbook.txt. 
+remove an executable perm from notebook.txt.
+
+Add executable perm for an user and group.
+Change perms on the file to rw-rw-r---
+
+Change directory permissions
+------------------------------
+create workbookexamples and assign to all and gorup rwx and for other is is read permissions.
+
+remove executable permissions from all on workbook.examples.
+and executable to workbook.examples. 
+
+
+
+Chapter 4
+--------------
+
+a) Crete some files and directories in a directory and list all of them that distinugish between 
+files, directories and links. do it in 3 differen tways. 
+sort the file across rows. 
+
+what is @ and * in ls -F command. 
+make a file show up having * and get an output of @.
+
+4.1.3
+-----------
+give a command to sort newest file first. 
+sort files in reverse order. 
+create a file with non printable characters and list it. 
+
+
+4.2.2.
+------
+create a directory called as wildcards and create following files. 
+boat, coat, Goat, goad, color and .hidden.
+Use wildcard pattern to display. 
+a) names of hidden files. 
+b) All four letter names. 
+c) four letter file names ending in oat
+d) with "oa" as middle letters. 
+e) beginning with either c or g. 
+f) beginning with upper case letter.
+g) all non hidden files beginnning with G or g. 
+h) Match hidden files plus g. 
+
+
+Removing files. 
+
+a) create files a, b and c. 
+and remove the files with a prompt being given .
+
+b) create files a and b. 
+do smoething so that when rm a is invoked it asks for prompt. 
+Use an option that will force deletion.
+
+c) create a file named -x and remove it. 
+
+LAB 4.4
+--------
+create a directory path phone/calls. Do it in two different ways with one command. 
+
+check permissions on phone and  on calls. 
+remove the directory path phone/callss.
+
+remove the complete directory phone. after creating some files in phone. 
+
+
+create a file called groucho and copy it to gummo. 
+
+create a directory called marx and copy groucho and gummo to marx. 
+
+copy directory marx to ritz (when ritx is not there) . Copy directory marx to ritz1(Crete it firt.)
+
+Hard Link a file. 
+---------
+create a link to groucho in marx directory called julius. 
+list the files to groucho and  verify 1 works. 
+
+create a soft link to home directory. 
+
+4.6.2
+-------
+move files marx and ritz to directory called comics. 
+rename comics to teams.
+
+Signing off for now.
+
+Chapter 5
+----------
+LAB 5.1
+-------
+Search for a man page of man.Navigate to SEE ALSO Section navigate by a single lien and a page full.
+
+5.1.2
+------
+search for intro command in sections 1 and 7
+Search for intro comamnd in sections 1 to 8.
+
+Assume you don't know intro (that it is a command. ) and find a manual page for it. similary for date. 
+Just print the single line summary of man command. 
+
+5.3
+----
+Open the xman page. 
+and display all commands and read the man page for nagigate up and down by a line. 
+
+Chapter 6
+------
+Print the line Don't use a single apostrophe. 
+using echo command. Geet it wrong once where terminal is hung up. 
+
+
+6.2
+----
+use 3 differnt ways to find the Path location of the command ls. 
+
+6.3
+sleep for 120 seconds and list all the processes. 
+Find all processes with your login name. 
+
+Start a sleep command for 1200 seconds and kill the procss. 
+
+6.4
+-----
+display the command after 10 secons. 
+
+6.4.2
+
+messs up the terminal and restore it. 
+display all the keystrokes for various things line intr, sleep e.t.c.
+
+6.5
+-----d
+
+what keyas are mapped to 
+eof
+erase
+intr
+kill
+
+Change the backspace to +
+Set the kill command to @
+and test it by typing a command. 
+
+Chapter 7
+----------
+blue file 
+
+Little boy blue
+Come blow your horn
+The sheep's in the meadow
+The cow's in the corn. 
+
+mary file 
+Mary had a little lamb.
+Its fleece was white as snow
+And everywhere that Mary went
+The lamb was sure to go
+
+
+Peep file
+Little Bo Peep has lost her sheep
+and doesn't know where to find the
+Leave them alone
+And the'll come home
+Wagging their tails behind them 
+
+
+Search for Little in all 3 files. Do a coase insensitive search also.
+
+Next while searching suppress the lines. 
+
+Search for a file contining both in and peep. Give the solution using -e option and also using | operator.
+
+LAB 7.2
+
+List all files in home directory
+do it using two different comandn.. s
+
+find a flie with 4 characters with lue as the name. 
+
+
+do a case insensitive search of file called blue. using an option, using meta charaters. 
+
+print all files in home directory.
+pritn all directoreis in home directories. 
+
+Find all files which have been modified
+less then 2 days, more than 2 days . 
+
+find a file or directory  whose name is blue or is a file. 
+time the find command. and don't show erorrs. 
+
+
+
+Chapter 8
+---------
+create a file called todo
+
+To Do: 
+
+Pay fine $99.32
+Coat to dry cleaners [open 9-6]
+* Buy oats
+Friday: Take out garbage
+Saturday: Paint garage door, if dry
+* Sat: Show kids goat at zoo
+
+
+Match the lines at and single space before at]
+match lines with dry and dry at the end of the line.
+search for $99
+search for empty lines. 
+search for $ 
+search for any word coanting o and t with a letter in between.
+search for lines containing D or d
+Seearch for lines containing A-Z
+search for lines not containing A-Z at the start. 
+search for containing *
+search for lines coantining garbage garbbage, garbbbbage 
+Search for lines contiang 0 or more 9
+search for licnes containg one 9 followed by 0 or more 9.
+search for licnes containg two 9's followed by 0 or more 9.
+
+seachr fo rlines continag 2 99 use {} as part o fhte soluton
+Match all North American Phone nUmbers. 
+Search for Sat and and 0 or more urday followed by :
+
+Search for pattern containing two successive characters.
+
+
+Find all lines containing . or $ characters.
+regex finding "[" characters.
+regular expression finding "*" charactercher
+
+
+
+Chapter 8.2
+----------------
+Search for Friday or Saturday within tod.
+search for Fri or Sat with optional 0 or more optional urday
+
+Using extended regexs sarch for 0 0r 1 9
+search for one 9 followed by 0 or 1 9.
+search for one or more 9.
+
+Murcheson Lumber:10 6' 2x4:$32.91
+Murcheson Lumber:1 lb. nails:$2.14
+Kepler Build-All:8 sheets 4x8 dryawall:34.24
+Krazy Achmed's Paint-It: 2 gallons primer:$15.93
+Krazy Achmed's Paint-It: 4 rolls drywall tape:$8.93
+Kepler Build-All:5 lbs. Dryawall Screns:$8.76
+Mudler's Tool Shack:drywall gun:85.23
+Happy's Hardware Hut:5 gallons drywall mud:$14.29
+
+1) Write a regex to match all costs.
+2) Write a regix to find all the Murcheson Lumber expenses (Wtih misspellings too)
+3) Wirte a regex to find all of the drywall costs.
+4) wreite a regex to find all nail and screw costs.
+5) Wirte a regix to find all costs < $10.00 and greater than $10.00
+
+
+Chapter 9
+--------
+open a file in editor 
+and q
+
+PUt the file Memo:Everybodyxx
+
+save the file. and quit.
+save the file to memo (try wtihout givng a file name)
+
+Type the following text:
+Congratulations to Chris, the former playboy.
+
+Add following text.
+
+Chris is now the proud father of a littile boy.
+The early arrival (early this morning, to weeks early)
+means that Chris won't be in the office this week or next
+week.
+
+Best wishes from all of us!
+save the file and quit.
+Tyr quitting file after makcing modification. do it forcefully.
+
+
+
+
+
+
+
+
+
+9.2
+----
+append text. 
+get the followint text 
+hings t
+
+Insert. it 
+I have. 
+insert frorm the the begging Ten (use I)
+uas A and press to do Today.
+
+see to it that it falls logically in place. 
+
+
+open afile in vi and move one line above, one line below. to the last lane, to the First line and to the middle.
+
+add 40 lines of text. 
+
+scroll the screen forwards and backwards. By screto en full. 
+scronll the screen one line at  a time.
+
+
+9.4
+----
+open memo fo rhtis exercises.
+
+delet a line, 5 lines. 
+form the current line to the end delete.
+deleate a word, a letter. x , replace with character 
+Replace with Attention!
+
+Saving a file.
+save the file memo to newmemo.
+make a 
+save the file to memo and then to newmemo
+
+9.5
+-----
+search for a character forwards e and for a backkward search with e.
+
+search for y  forwards and backwards. (repeat the search n / and ?
+
+search for ening y 
+
+9.7
+replace early with late
+repalcy early with late globally. 
+replace boy with gril on all lines.
+replace Chris with Christoper Use previous match..
+
+
+LAB 9.8
+-------
+Move to 4lines delete 4 lines and move downards and past the deleted text. 
+
+save the first two lines to tmpfile 
+Read the contents of the tmp file into a file. 
+
+
+
+
+
+
+chapter 10
+------
+Jan 1 New Year's Day
+Feb 14 Valentine's Day
+Mar 15 Ides of March
+Mar 15 Bethany's Birthday
+Apr 1 April Fool's Day
+May 17 Memorial Day
+May 24 Sandi's Brithday
+Jul 1 Indpende Day
+Aug 5 My Birthday
+Sep 3 Labour Day
+dec 25 Christmas
+Dec 26 Boxing Day
+
+
+10.1.1
+-------
+sort the abvove file, treat upper and lower cases same, and reverse sort the file
+sor the file based on months. 
+sort on Thrid word onwards , next  the  the days.
+Sort the file based on first word, but Month (ONLY month) 1,1 and then if conflict reverse sort from second word onwards.
+
+
+Sor the fnle on second word teating is atwo numbers. 
+
+revers sort based on 2 word and if match sort it on 1 but month sort.
+
+10.3
+----
+For any file find numebr of lines, words and characters fo days file. 
+
+
+check the spelling in days. check it and sort it with dictiorary ordr, ignoring case and with u. write tit o mydict file.
+then spelling without spellling mistkaek. you need to use above for it. 
+
+10.4
+------
+The force that through the house fuse drive the power
+(With apologies to Dylan Thomas)
+
+The force that through the house fuse drives the power
+Is the volta; it blasts the watts throught ohms
+(Thats the resistence).
+And I was dumb to tell my doubting wife
+I knew my way around the broken fusebox
+
+Split the file on 40 character,
+next round if there is word split it on the word . 
+
+Format the paragraph breaking at 40 characters
+
+Chapter 12.
+--------------
+change to current directory and print path to the working directory in a differnt shell and also print the path to the working directory.
+Insert path to working directory in  the line The current directory is, two different ways. 
+
+12.2
+-----
+set the value for VAR to value and examine it in environment. 
+remove the variable that is set.
+
+12.3
+----
+search for the name not_here and don;'display errors. 
+kill the process and then send the job to backround.. 
+
+Move the job back to foreground. 
+
+
+12.4
+----
+copuy the file and schedule it 10 minutes from now. 
+examine all scheduled jobs 2 ways . One where all environemnt info is also displayed.
+then kill the job. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

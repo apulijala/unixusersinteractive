@@ -1,0 +1,4 @@
+:%s/botles/bottles/g
+:%s/teh/the/g
+:w newfile
+
